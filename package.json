@@ -1,0 +1,30 @@
+{
+  "name": "Markdown-to-HTML",
+  "version": "1.0.0",
+  "description": "A Markdown-to-HTML editor built on Electron",
+  "main": "app/main.js",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.4.6",
+    "electron-packager": "^8.2.0",
+    "eslint": "^3.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stmoreau/markdown-to-html.git"
+  },
+  "keywords": [],
+  "author": "Stephane Moreau <stephane.moreau.personal@gmail.com> (http://stephanemoreau.info)",
+  "bugs": {
+    "url": "https://github.com/stmoreau/markdown-to-html/issues"
+  },
+  "homepage": "https://github.com/stmoreau/markdown-to-html#readme"
+}
