@@ -1,4 +1,5 @@
 const { app, BrowserWindow, dialog } = require('electron');
+const fs = require('fs');
 
 let mainWindow = null;
 
@@ -14,7 +15,8 @@ const getFileFromUserSelection = () => {
   if(!files) return;
 
   const file = files[0];
-  console.log(file);
+  const content = fs.readFileSync(file).toString();
+  console.log(content);
 };
 
 app.on('ready', () => {
